@@ -1,0 +1,307 @@
+/* div for background object of pletter */
+  div.content {
+    width:100px;
+    height:100px;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: pletter;
+    animation-duration: 0s;
+    } 
+/* div for pletter animation */
+  div.pletter{
+    width: 10px;
+    height:10px;
+    background-color: red;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: pletter;
+    animation-duration: 4s;
+    }
+/* keyframes for pletter */
+  @keyframes pletter {
+    0%   {left:0px; top:0px;}
+    10%  {left:40px; top:0px;}
+    15%  {left:40px; top:40px;}
+    35%  {left:0px; top:40px;}
+    65%  {left:0px;top:80px;}
+    100% {left:0px; top:0px;}
+    }
+/* div for background object of rletter */
+  div.content1 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:105px;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count:infinite;
+    position: fixed;
+    animation-name: rletter;
+    animation-duration: 0s;
+    }
+/* div for rletter animation */
+  div.rletter{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:105px ;
+    background-color:blue;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: rletter;
+    animation-duration: 4s;
+  }
+/* keyframes for pletter */
+  @keyframes rletter {
+    0%   {left:0px; top:0px;}
+    10%  {left:40px; top:0px;}
+    15%  {left:40px; top:40px;}
+    35%  {left:0px;top:40px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:0px;top:40px;}
+    75%  {left:0px;top:80px;}
+    100% {left:0px; top:0px;}
+  }
+/* div for background object of aletter */
+  div.content2 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:210px ;
+    background-color :aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: aletter;
+    animation-duration: 0s;
+  }
+/* div for aletter animation */
+  div.aletter{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:210px;
+    background-color:yellow;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: aletter;
+    animation-duration: 4s;
+  }
+/* keyframes for aletter */
+  @keyframes aletter {
+    0%   {left:0px; top:0px;}
+    10%  {left:40px; top:0px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:40px;top:40px;}
+    52%  {left:0px;top:40px;}
+    75%  {left:0px;top:80px;}
+    100% {left:0px; top:0px;}
+  }
+/* div for background object of jletter */
+  div.content3 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:315px ;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: jletter;
+    animation-duration: 0s;
+  }
+/* div for jletter animation */ 
+  div.jletter{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:315px ;
+    background-color: green;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: jletter;
+    animation-duration: 4s;
+}
+/* keyframes for jletter */
+  @keyframes jletter {
+    0%   {left:0px; top:0px;}
+    30%  {left:80px; top:0px;}
+    31%  {left:40px;top:0px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:0px;top:80px;}
+  }
+/* div for background object of aletter */
+  div.content4 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:420px ;
+    background-color :aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: aletter1;
+    animation-duration: 0s;
+  }
+/* div for aletter animation */ 
+  div.aletter1{
+  width: 10px;
+  height:10px;
+  margin-top:-10px;  
+  margin-bottom:0px;
+  margin-right:10px;
+  margin-left:420px ;
+  background-color:brown;
+  border-radius: 2000%;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-name: aletter1;
+  animation-duration: 4s;
+}
+/* keyframes for aletter */
+  @keyframes aletter1 {
+    0%   {left:0px; top:0px;}
+    10%  {left:40px; top:0px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:40px;top:40px;}
+    52%  {left:0px;top:40px;}
+    75%  {left:0px;top:80px;}
+    100% {left:0px; top:0px;}
+  }
+/* div for background object of kletter */
+  div.content5 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:525px ;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: kletter;
+    animation-duration: 0s;
+  }
+/* div for kletter animation */
+  div.kletter{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:525px ;
+    background-color:blueviolet;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: kletter;
+    animation-duration: 4s;
+  }
+/* keyframes for kletter */
+ @keyframes kletter {
+    0%   {left:0px; top:0px;}
+    30%  {left:0px; top:40px;}
+    31%  {left:20px;top:0px;}
+    35%  {left:0px;top:40px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:0px;top:40px;}
+    75%  {left:0px;top:80px;}
+  } 
+/* div for background object of tletter*/
+  div.content6 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:630px ;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: tletter;
+    animation-duration: 0s;
+  }
+/* div for tletter animation */
+  div.tletter{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:630px ;
+    background-color:orangered;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: tletter;
+    animation-duration: 4s;
+  }
+/* keyframes for tletter */
+  @keyframes tletter {
+    0%   {left:0px; top:0px;}
+    30%  {left:80px;top:0px;}
+    31%  {left:40px;top:0px;}
+    50%  {left:40px;top:80px;}
+  }
+/* div for background object of aletter*/
+  div.content7 {
+    width:100px;
+    height:100px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:735px ;
+    background-color:aquamarine;
+    border-radius:0%;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-name: aletter2;
+    animation-duration: 0s;
+  }
+/* div for aletter animation */
+  div.aletter2{
+    width: 10px;
+    height:10px;
+    margin-top:-10px;  
+    margin-bottom:0px;
+    margin-right:10px;
+    margin-left:735px ;
+    background-color:orange;
+    border-radius: 2000%;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-name: aletter2;
+    animation-duration: 4s;
+  }
+/* keyframes for aletter */
+  @keyframes aletter2 {
+    0%   {left:0px; top:0px;}
+    10%  {left:40px; top:0px;}
+    50%  {left:40px;top:80px;}
+    51%  {left:40px;top:40px;}
+    52%  {left:0px;top:40px;}
+    75%  {left:0px;top:80px;}
+    100% {left:0px; top:0px;}
+  }
